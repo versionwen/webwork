@@ -11,6 +11,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Registry" target="1.8" />
+      <module name="webwork" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
