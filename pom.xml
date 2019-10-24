@@ -9,7 +9,8 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>Registry</module>
+
+        <module>registry</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->
