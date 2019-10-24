@@ -11,6 +11,8 @@
     <modules>
 
         <module>registry</module>
+        <module>configur</module>
+        <module>User</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->

@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Registry/Registry.iml" filepath="$PROJECT_DIR$/Registry/Registry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/User/User.iml" filepath="$PROJECT_DIR$/User/User.iml" />
+      <module fileurl="file://$PROJECT_DIR$/configur/configur.iml" filepath="$PROJECT_DIR$/configur/configur.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/webwork.iml" filepath="$PROJECT_DIR$/.idea/webwork.iml" />
     </modules>
   </component>
