@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
       <configuration>
-        <fileset id="spring_boot_com.webwork.ConfigApplication" profiles="native" autodetected="true" />
+        <fileset id="spring_boot_com.webwork.ConfigApplication" profiles="composite" autodetected="true" />
       </configuration>
     </facet>
     <facet type="web" name="Web">
