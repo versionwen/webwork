@@ -6,13 +6,17 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="account" />
+        <module name="Order" />
+        <module name="configur" />
         <module name="Registry" />
         <module name="User" />
-        <module name="configur" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="account" target="1.8" />
       <module name="configur" target="1.8" />
+      <module name="Order" target="1.8" />
       <module name="Registry" target="1.8" />
       <module name="User" target="1.8" />
       <module name="webwork" target="1.8" />
@@ -20,8 +24,10 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Order" options="-parameters" />
       <module name="Registry" options="-parameters" />
       <module name="User" options="-parameters" />
+      <module name="account" options="-parameters" />
       <module name="configur" options="-parameters" />
     </option>
   </component>

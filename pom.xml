@@ -13,6 +13,8 @@
         <module>registry</module>
         <module>configur</module>
         <module>User</module>
+        <module>account</module>
+        <module>Order</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->
