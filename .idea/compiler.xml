@@ -6,15 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="account" />
-        <module name="Order" />
-        <module name="configur" />
         <module name="Registry" />
         <module name="User" />
+        <module name="account" />
+        <module name="Order" />
+        <module name="Apigetway" />
+        <module name="configur" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="account" target="1.8" />
+      <module name="Apigetway" target="1.8" />
+      <module name="ApiGetway" target="1.8" />
       <module name="configur" target="1.8" />
       <module name="Order" target="1.8" />
       <module name="Registry" target="1.8" />
@@ -24,6 +27,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ApiGetway" options="-parameters" />
+      <module name="Apigetway" options="-parameters" />
       <module name="Order" options="-parameters" />
       <module name="Registry" options="-parameters" />
       <module name="User" options="-parameters" />
