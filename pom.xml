@@ -16,6 +16,7 @@
         <module>account</module>
         <module>Order</module>
         <module>ApiGetway</module>
+        <module>Apigetway</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->
