@@ -20,5 +20,13 @@ public class UserImpl implements UserService {
     public List<User> findAll(int index, int limit){
         return uSerMapper.findAll(index,limit);
     }
-
+    public int count(){
+        return uSerMapper.count();
+    }
+    public void adduser(){
+        uSerMapper.adduser();
+    }//添加新用户
+    public void deleteById(long id){
+        uSerMapper.deleteById(id);
+    }//删除用户
 }

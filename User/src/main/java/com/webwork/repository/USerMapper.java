@@ -12,4 +12,7 @@ import java.util.List;
  */
 public interface USerMapper {
     public List<User> findAll(int index, int limit);
+    public int count();
+    public void adduser();//添加新用户
+    public void deleteById(long id);//删除用户
 }

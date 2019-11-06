@@ -5,4 +5,13 @@
     <select id="findAll" resultType="User">
 		select * from t_user order by id limit #{param1},#{param2}
 	</select>
+	<select id="count" resultType="int">
+		SELECT COUNT(*) from t_user
+	</select>
+	<insert id="adduser" parameterType="User">
+		insert into t_user(username,password,nickname,gender,telephone,registerdate,address) values(#{username},#{password},#{nickname},#{gender},#{telephone},#{registerdate},#{address})
+	</insert>
+	<delete id="deleteById" parameterType="long">
+		delete from t_user where id = #{id}
+	</delete>
 </mapper>
