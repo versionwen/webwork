@@ -12,7 +12,9 @@ import java.util.List;
 public interface UserService {
     public List<User> findAll(int index, int limit);//返回所有用户信息
     public int count();//查询用户总数
-    public void adduser();//添加新用户
-    public void deleteById(long id);//删除用户
+    public int adduser(User user);//添加新用户
+    public int deleteById(long id);//删除用户
+    public int login(String name,String password);
+    public User findById(long id);//通过id查询用户
 
 }

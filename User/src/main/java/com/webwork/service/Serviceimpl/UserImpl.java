@@ -23,10 +23,19 @@ public class UserImpl implements UserService {
     public int count(){
         return uSerMapper.count();
     }
-    public void adduser(){
-        uSerMapper.adduser();
+    public int adduser(User user){
+        return uSerMapper.adduser(user);
     }//添加新用户
-    public void deleteById(long id){
-        uSerMapper.deleteById(id);
+    public int deleteById(long id){
+        return uSerMapper.deleteById(id);
     }//删除用户
+    public int login(String name,String password){
+        return uSerMapper.login(name,password);
+    }
+
+    @Override
+    public User findById(long id) {
+        return uSerMapper.findById(id);
+    }
+
 }

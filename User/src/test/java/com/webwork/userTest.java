@@ -11,13 +11,12 @@ import org.springframework.test.context.junit4.SpringRunner;
 import com.webwork.service.UserService;
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = User.class)
-@MapperScan("com.webwork.repository")
 public class userTest {
-    @Autowired
-    private UserService userService;
+    //@Autowired
+  //  private UserService userService;
     @Test
     public void test(){
-        System.out.println(userService.count());
+        System.out.println("##############\n");
     }
 
 }

@@ -17,6 +17,7 @@
         <module>Order</module>
         <module>ApiGetway</module>
         <module>Apigetway</module>
+        <module>menu</module>
     </modules>
 
     <!-- 引入Spring Boot依赖 -->
