@@ -1,10 +1,10 @@
-package com.southwind.controller;
+package com.webwork.controller;
 
-import com.southwind.entity.Menu;
-import com.southwind.entity.MenuVO;
-import com.southwind.entity.Type;
-import com.southwind.repository.MenuRepository;
-import com.southwind.repository.TypeRepository;
+import com.webwork.entity.Menu;
+import com.webwork.entity.MenuVO;
+import com.webwork.entity.Type;
+import com.webwork.repository.MenuRepository;
+import com.webwork.repository.TypeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

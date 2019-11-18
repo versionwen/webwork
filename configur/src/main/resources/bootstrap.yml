@@ -5,7 +5,7 @@ spring:
     config:
       server:
         native:
-          search-locations: config/ # 搜索src/main/resource 下的properties文件夹下的文件
+          search-locations: config/ # 搜索config文件夹下的文件
   application:
     name: config
   profiles:

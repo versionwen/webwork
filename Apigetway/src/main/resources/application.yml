@@ -10,6 +10,8 @@ eureka:
   instance:
     prefer-ip-address: true
 zuul:
+  sensitive-headers: Access-Control-Allow-Origin
+  ignored-headers: Access-Control-Allow-Origin,H-APP-Id,Token,APPToken
   routes:
     user:
       path: /apiuser/**

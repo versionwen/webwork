@@ -1,4 +1,4 @@
-package com.southwind.entity;
+package com.webwork.entity;
 
 import lombok.Data;
 

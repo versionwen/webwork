@@ -1,13 +1,13 @@
-package com.southwind.entity;
+package com.webwork.entity;
 
 import lombok.Data;
 
 import java.util.List;
 
 @Data
-public class MenuVO {
+public class OrderVO {
     private int code;
     private String msg;
     private int count;
-    private List<Menu> data;
+    private List<Order> data;
 }

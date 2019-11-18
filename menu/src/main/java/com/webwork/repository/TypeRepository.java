@@ -1,6 +1,6 @@
-package com.southwind.repository;
+package com.webwork.repository;
 
-import com.southwind.entity.Type;
+import com.webwork.entity.Type;
 
 import java.util.List;
 
